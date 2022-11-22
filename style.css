@@ -1,23 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* CSS reset */
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0 auto;
-    font-family: "roboto"
+  margin: 0 auto;
+  font-family: "roboto";
 }
 
-
 nav {
-    height: 100px;
-    width: auto;
-    margin: 80 auto;
-    display: flex;
-    background-color: #1F2937;
+  height: 100px;
+  width: auto;
+  margin: 80 auto;
+  display: flex;
+  background-color: #1f2937;
 }
 
 header {
+  font-size: 24px;
+  color: #f9faf8;
+}
 
-    font-size: 24px;
-    color: #F9FAF8;
+section1 {
+  display: flex;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.mainSecondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  padding: 7px 17px;
+  color: #e5e7eb;
+  border-radius: 5px;
+}
+
+.fourSquareImgContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourSquareImg img {
+  height: 150px;
+  padding: 20px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.boxHighlightContainer {
+  display: flex;
+  border-radius: 5px;
+  background-color: #3882f6;
+  margin: 20px 40px;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+.boxHighlight {
+}
+
+.callToActionButton {
+  border: solid 2px;
+  border-color: #e5e7eb;
+  padding: 10px 20px;
+}
+
+.callToActionText {
+  color: #e5e7eb;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.callToActionSubText {
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
