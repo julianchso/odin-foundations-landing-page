@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "roboto"
+}
+
+
+nav {
+    height: 100px;
+    width: auto;
+    margin: 80 auto;
+    display: flex;
+    background-color: #1F2937;
+}
+
+header {
+
+    font-size: 24px;
+    color: #F9FAF8;
+}
