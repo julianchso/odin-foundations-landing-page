@@ -140,37 +140,66 @@ body {
 }
 
 nav {
+  /* position: relative; */
+  /* z-index: -1; */
   height: 100px;
   width: auto;
-  margin: 80 auto;
+  margin: 0 -600rem;
+  padding: 0.25rem 600rem;
   display: flex;
   background-color: #1f2937;
+  overflow-x: hidden;
 }
+
+/* nav::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  left: 598.5rem;
+  right: 598.5rem;
+  background: #1f2937;
+} */
 
 header {
   font-size: 24px;
   color: #f9faf8;
 }
 
-section1 {
+.section1 {
+  background-color: #1f2937;
   display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
 }
 
 h2 {
   font-size: 48px;
   font-weight: 800;
+  max-width: 480px;
   color: #f9faf8;
 }
 
 .mainSecondary {
   font-size: 18px;
   color: #e5e7eb;
+  max-width: 360px;
+  margin: 20px 0;
 }
 
 h3 {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section2 {
+  padding-bottom: 50px;
+  background-color: #e5e7eb;
 }
 
 button {
@@ -184,6 +213,8 @@ button {
 .fourSquareImgContainer {
   display: flex;
   justify-content: space-around;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .fourSquareImg img {
@@ -191,6 +222,13 @@ button {
   padding: 20px;
   border: 4px solid #3882f6;
   border-radius: 10px;
+}
+
+.subtext {
+  text-align: center;
+  max-width: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .boxHighlightContainer {
@@ -231,4 +269,11 @@ footer {
   margin: 0 auto;
   background-color: #1f2937;
   color: #e5e7eb;
+}
+
+.contentWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
