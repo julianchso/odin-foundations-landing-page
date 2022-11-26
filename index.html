@@ -6,68 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Flex Box Foundations</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="contentWrapper">
-      <nav>
-        <header>Header Logo</header>
-        <ul>
-          <li><a href="">header link one</a></li>
-          <li><a href="">header link two</a></li>
-          <li><a href="">header link three</a></li>
-        </ul>
-      </nav>
-      <section class="section1">
-        <div>
-          <h2>This website is awesome</h2>
-          <p class="mainSecondary">
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast
-          </p>
-          <button>Sign up</button>
+    <nav>
+      <header>Header Logo</header>
+      <ul id="navLinks">
+        <li class="navLink"><a href="">About Us</a></li>
+        <li class="navLink"><a href="">Services</a></li>
+        <li class="navLink"><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section class="main">
+      <div class="bx">
+        <div class="introContainer">
+          <div class="introText">
+            <h2>This website is awesome</h2>
+            <p class="mainSecondary">
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast
+            </p>
+            <button>Sign up</button>
+          </div>
+          <div>
+            <img src="img/nebula.png" alt="nebula" id="nebula" />
+          </div>
         </div>
-        <div>
-          <img src="" alt="main company image" />
-        </div>
-      </section>
-      <section class="section2">
-        <h3>Some random information.</h3>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="bx">
+        <h3>Space. The Final Frontier.</h3>
         <div class="fourSquareImgContainer">
           <div class="fourSquareImg">
             <img src="img/astronaut-ingravity.png" alt="astronaut" />
-            <p class="subtext">
-              this is some subtext under an illustration or image
-            </p>
+            <p class="subtext">Float in zero g</p>
           </div>
           <div class="fourSquareImg">
             <img src="img/rocket-flying.png" alt="rocket" />
-            <p class="subtext">
-              this is some subtext under an illustration or image
-            </p>
+            <p class="subtext">Faster than the speed of sound</p>
           </div>
           <div class="fourSquareImg">
             <img src="img/space-module.png" alt="space-module" />
-            <p class="subtext">
-              this is some subtext under an illustration or image
-            </p>
+            <p class="subtext">See the far reaches of space</p>
           </div>
           <div class="fourSquareImg">
             <img src="img/venus-with-satellite.png" alt="venus" />
             <p class="subtext">
-              this is some subtext under an illustration or image
+              Explore the solar system with inter-planetary travel
             </p>
           </div>
         </div>
-      </section>
-      <section class="section3">
-        <p class="quote">
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice.
-        </p>
-        <p class="author">-Thor, God of Thunder</p>
-      </section>
-      <section>
+      </div>
+    </section>
+    <section class="section3">
+      <p class="quote">
+        When you eliminate the impossible, whatever remains, however improbable,
+        must be the truth.
+      </p>
+      <p class="author">-Spock</p>
+    </section>
+    <section class="callToAction">
+      <div class="bx">
         <div class="boxHighlightContainer">
           <div class="boxHighlight">
             <p class="callToActionText">Call to action! It's time!</p>
@@ -77,8 +82,8 @@
           </div>
           <button class="callToActionButton">Sign up</button>
         </div>
-      </section>
-      <footer>Copyright &copy The Odin Project 2021</footer>
-    </div>
+      </div>
+    </section>
+    <footer>Copyright &copy The Odin Project 2021</footer>
   </body>
 </html>
