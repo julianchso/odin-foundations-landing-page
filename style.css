@@ -155,7 +155,6 @@ header {
 
 #navLinks {
   display: flex;
-  align-items: flex-end;
 }
 
 .navLink {
